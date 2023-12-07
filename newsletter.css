@@ -1,9 +1,12 @@
 
 body {
+
     margin: 0;
     background-color: #cccccc;
+
 }
 table {
+    
     border-spacing: 0;
 }
 td {
@@ -27,7 +30,7 @@ img {
     background-color: #ffffff; 
     margin: 0 auto;
     width: 100%;
-    max-width: 600px;
+    max-width: 100%;
     border-spacing: 0;
     font-family: sans-serif;
     color: #4a4a4a;       
@@ -38,13 +41,14 @@ img {
 
     text-align: center;
     font-size: 0;
+    width: 100%;
     
 }
 
 .two-columns .column {
 
-    width: 50%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 100%;
     display: inline;
     vertical-align: top;
     text-align: left;
@@ -74,37 +78,6 @@ img {
 
 }
 
-.three-columns{
-
-    text-align: center;
-    font-size: 0;
-    padding: 35px 0 20px;
-    justify-content: center;
-
-}
-
-.three-columns .column{
-
-    width: 100%;
-    max-width: 200px;
-    display: inline-block;
-    vertical-align: top;
-
-}
-
-.three-columns .padding{
-
-    padding: 15px;
-
-}
-
-.three-columns .content{
-
-    font-size: 15px;
-    line-height: 20px;
-
-}
-
 .two-columns.last{
 
     padding: 35px 0;
@@ -123,7 +96,7 @@ img {
 
     font-size: 15px;
     line-height: 20px;
-    text-align: left;
+    text-align: center;
     
 
 }
@@ -184,7 +157,7 @@ img {
 
 h2{
 
-    font-size: 25px;
+    font-size: 35px;
     padding: 0;
     margin: 0;
     font-weight: bold;
@@ -213,5 +186,52 @@ p{
 h1,h2,h3,h4,h4,h5,h6{
 
     font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.titulo{
+
+    width: 100%;
+    max-width: 100%;
+    padding-right: 10px;
+    padding-top: 0px;
+    
+}
+
+@media only screen and (min-width: 601px) {
+    .iconos {
+
+        padding-left: 40px; 
+
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    
+    .articulos a{
+
+        margin-top: 80px;
+        
+
+    }
+    .articulos p{
+
+        padding-top: 20px;
+        
+
+    }
+    .articulos img{
+
+        width: 100px;
+
+    }
+}
+
+
+.principal{
+
+    text-align: center;
+    justify-content: center;
 
 }
