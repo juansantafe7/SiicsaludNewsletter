@@ -6,3 +6,13 @@ window.addEventListener('scroll', function() {
       arrowLink.style.display = 'none';
     }
   });
+
+  const shareButtons = document.querySelectorAll('.share-button');
+  const shareOptions = document.querySelectorAll('.share-option');
+
+shareButtons.forEach((button, index) => {
+  button.addEventListener('click', function () {
+    this.classList.toggle('active');
+    shareOptions[index].classList.toggle('active');
+  });
+});
