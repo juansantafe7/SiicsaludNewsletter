@@ -470,6 +470,22 @@ h1,h2,h3,h4,h4,h5,h6{
 
 @media  screen and (max-width: 768px)  {
 
+    .conten-sub h2{
+
+        text-align: center;
+
+    }
+
+    .conten-sub input{
+
+        max-width: 250px;
+        text-align: center;
+        justify-content: center;
+        margin-left: 10px;
+
+    }
+
+
 
     .article-card{
 
